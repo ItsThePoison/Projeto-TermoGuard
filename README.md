@@ -72,3 +72,13 @@ Confiabilidade, simplicidade, acessibilidade, transparência e compromisso com o
 | Equipamentos                | R$ 13.450,00         |
 | Sistemas operacionais       | R$ 3.000,00          |
 | **Total geral**             | **R$ 16.450,00**     |
+---
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Site:
+Utilizando `.html`, `.css`, `.js`.
