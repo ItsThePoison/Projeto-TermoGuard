@@ -19,6 +19,7 @@
 
 
     font-family: 'Sora', system-ui, -apple-system, 'Segoe UI', sans-serif;
+    user-select: none;
 }
 
 body {
@@ -43,6 +44,7 @@ body {
     display: flex;
     align-items: center;
     text-decoration: none;
+    transition: 0.4s ease;
 }
 
 .logo-header:hover p {
@@ -77,13 +79,13 @@ body {
     padding: 10px 15px;
     background-color: var(--bg-btn);
     border-radius: 8px;
-    transition: background-color 0.4s ease;
-    border: 3px solid transparent;
+    transition: 0.4s ease;
+    border: 2.5px solid transparent;
 }
 
 .nav-link:hover {
     background-color: var(--bg1);
-    border: 3px solid var(--border);
+    border: 2.5px solid var(--border);
     color: var(--azul);
 }
 
@@ -153,14 +155,14 @@ body {
     color: var(--text);
     background-color: var(--bg-btn);
     border-radius: 8px;
-    transition: background-color 0.4s ease;
-    border: 3px solid transparent;
+    transition: 0.4s ease;
+    border: 2.5px solid transparent;
 
 }
 
 .btn-produtos:hover {
     background-color: var(--bg1);
-    border: 3px solid var(--border);
+    border: 2.5px solid var(--border);
     color: var(--azul);
 }
 
@@ -225,13 +227,11 @@ body {
     user-select: none;
     padding: 20px;
     border-radius: 8px;
-    border: 3px solid transparent;
-    transition: border 0.4s ease;
-    transition: background-color 0.4s ease;
+    border: 2.5px solid transparent;
+    transition: 0.4s ease;
 }
 
 .sobre-problema h2 {
-    transition: color 0.4s ease;
     color: var(--text);
     font-size: var(--h2-font-size);
     font-weight: var(--peso-h2);
@@ -249,26 +249,22 @@ body {
 .sobre-problema li {
     color: var(--text);
     font-size: var(--p-font-size);
-    transition: font-weight 0.4s ease;
 }
 
 .sobre-problema:hover {
     background-color: var(--bg1);
-    border: 3px solid var(--border);
+    border: 2.5px solid var(--border);
 }
 
 .sobre-problema:hover h2 {
-    transition: color 0.4s ease;
     color: var(--azul);
 }
 
 .sobre-problema:hover li {
     font-weight: var(--peso-h2);
-    transition: font-weight 0.4s ease;
 }
 
 .sobre-problema:hover li::marker {
-    transition: color 0.4s ease;
     color: var(--azul);
 }
 
@@ -279,13 +275,11 @@ body {
     user-select: none;
     padding: 20px;
     border-radius: 8px;
-    border: 3px solid transparent;
-    transition: border 0.4s ease;
-    transition: background-color 0.4s ease;
+    border: 2.5px solid transparent;
+    transition: 0.4s ease;
 }
 
 .sobre-solucao h2 {
-    transition: color 0.4s ease;
     color: var(--text);
     font-size: var(--h2-font-size);
     font-weight: var(--peso-h2);
@@ -303,25 +297,46 @@ body {
 .sobre-solucao li {
     color: var(--text);
     font-size: var(--p-font-size);
-    transition: font-weight 0.4s ease;
 }
 
 .sobre-solucao:hover {
     background-color: var(--bg1);
-    border: 3px solid var(--border);
+    border: 2.5px solid var(--border);
 }
 
 .sobre-solucao:hover h2 {
-    transition: color 0.4s ease;
     color: var(--azul);
 }
 
 .sobre-solucao:hover li {
     font-weight: var(--peso-h2);
-    transition: font-weight 0.4s ease;
 }
 
 .sobre-solucao:hover li::marker {
-    transition: color 0.4s ease;
+    color: var(--azul);
+}
+
+.container-sobre-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btn-sobre {
+    padding: 18px 36px;
+    font-size: var(--btn-font-size);
+    font-weight: var(--peso-h2);
+    text-decoration: none;
+    color: var(--text);
+    background-color: var(--bg-btn);
+    border-radius: 8px;
+    transition: 0.4s ease;
+    border: 2.5px solid transparent;
+}
+
+.btn-sobre:hover {
+    background-color: var(--bg1);
+    border: 2.5px solid var(--border);
     color: var(--azul);
 }
