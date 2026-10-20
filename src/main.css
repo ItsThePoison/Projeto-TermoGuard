@@ -340,3 +340,126 @@ body {
     border: 2.5px solid var(--border);
     color: var(--azul);
 }
+
+/* -------- */
+/* Produtos */
+/* -------- */
+.produtos-container {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: auto;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+}
+
+.titulo-produtos {
+    color: var(--text);
+    font-size: var(--h2-font-size);
+    font-weight: var(--peso-h2);
+}
+
+.subtitulo-produtos {
+    color: var(--text);
+    font-size: var(--p-font-size);
+    margin-bottom: 60px;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    justify-self: center;
+    align-self: center;
+    transition: 0.4s ease;
+}
+
+.produto-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bg2);
+    border-radius: 8px;
+    padding: 25px 20px 20px 20px;
+    transition: 0.4s ease;
+    border: 2.5px solid transparent;
+}
+
+.produto-card:hover {
+    border: 2.5px solid var(--border);
+}
+
+.produto-imagem img {
+    margin-bottom: 60px;
+    border-radius: 8px;
+}
+
+.produto-corpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 422px;
+    max-width: 100%;
+    transition: 0.4s ease;
+}
+
+.produto-corpo h3 {
+    color: var(--text);
+    font-size: var(--h2-font-size);
+    font-weight: var(--peso-h1);
+}
+
+.produto-corpo p {
+    color: var(--text);
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-size);
+}
+
+.produto-corpo li::marker {
+    color: var(--text);
+}
+
+.produto-corpo li {
+    color: var(--text);
+    font-size: var(--p-font-size);
+    transition: 0.4s ease;
+}
+
+.produto-corpo:hover li {
+    font-weight: var(--peso-h2);
+}
+
+.produto-corpo:hover li::marker {
+    color: var(--azul);
+}
+
+.produto-tag {
+    background-color: var(--azul);
+    color: var(--bg1);
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: var(--btn-font-size);
+    font-weight: var(--peso-h2);
+}
+
+.btn-produtos {
+    padding: 18px 36px;
+    font-size: var(--btn-font-size);
+    font-weight: var(--peso-h2);
+    text-decoration: none;
+    color: var(--text);
+    background-color: var(--bg-btn);
+    border-radius: 8px;
+    transition: 0.4s ease;
+    border: 2.5px solid transparent;
+}
+
+.btn-produtos:hover {
+    background-color: var(--bg1);
+    border: 2.5px solid var(--border);
+    color: var(--azul);
+}
