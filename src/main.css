@@ -658,12 +658,7 @@ body {
 }
 
 .rodape-direitos a:hover {
-    color: var(--branco);
-}
-
-/* foco visível sobre fundo escuro */
-.rodape-direitos :focus-visible {
-    outline-color: var(--azul-claro);
+    color: var(--azul);
 }
 
 /* Finish Footer styles */
