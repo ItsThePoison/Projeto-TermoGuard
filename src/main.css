@@ -463,3 +463,63 @@ body {
     border: 2.5px solid var(--border);
     color: var(--azul);
 }
+
+/* ------------- */
+/* Como Funciona */
+/* ------------- */
+.how-to-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+}
+
+.how-to-container h2 {
+    color: var(--text);
+    font-size: var(--h2-font-size);
+    font-weight: var(--peso-h1);
+}
+
+.how-to-container p {
+    color: var(--text);
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-size);
+}
+
+.how-to-container .azul-p {
+    color: var(--azul);
+    font-size: var(--p-font-size);
+    font-weight: 700;
+}
+
+.how-to {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.card-how-to {
+    background-color: var(--bg2);
+    border-radius: 8px;
+    padding: 25px 20px 20px 20px;
+    transition: 0.4s ease;
+}
+
+.card-how-to .num {
+    padding: 15px 25px;
+    border-radius: 50%;
+    background-color: var(--azul);
+    color: var(--bg1);
+    width: fit-content;
+    font-weight: 700;
+    min-width: 2.5rem;
+    aspect-ratio: 1;
+    padding: 0.5rem;
+    display: grid;
+    place-items: center;
+
+}
+
+/* ------ */
+/* Rodape */
+/* ------ */
