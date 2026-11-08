@@ -662,3 +662,13 @@ body {
 }
 
 /* Finish Footer styles */
+/* Finish MAIN-HTML styles */
+/* ----------------------- */
+/* ----------------------- */
+/* ----------------------- */
+
+.contato-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 85px;
+}
