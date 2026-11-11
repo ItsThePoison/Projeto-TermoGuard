@@ -75,10 +75,7 @@ Confiabilidade, simplicidade, acessibilidade, transparência e compromisso com o
 ---
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
+
 
 # Site:
 Utilizando `.html`, `.css`, `.js`.
