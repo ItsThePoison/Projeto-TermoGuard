@@ -125,7 +125,7 @@ body {
 }
 
 .hero-top h2 {
-    color: var(--text);
+    color: var(--azul);
     grid-area: subtitulo;
     max-width: 580px;
     font-size: var(--h2-font-size);
@@ -909,3 +909,135 @@ body {
 /* ------------ */
 /* contato.html */
 /*------------- */
+
+.contato-header {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 60px 0px 60px;
+}
+
+.contato-header h1 {
+    color: var(--text);
+    font-size: var(--h1-font-size);
+    font-weight: var(--peso-h1);
+}
+
+.contato-header h2 {
+    color: var(--azul);
+    font-size: var(--h2-font-size);
+    font-weight: var(--peso-h2);
+}
+
+.contato-header p {
+    color: var(--text);
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-size);
+}
+
+.contato-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 10%;
+    text-decoration: none;
+    background-color: var(--bg2);
+    margin-top: 20px;
+    margin: 0px 60px 10px 60px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 2.5px solid transparent;
+    transition: ease 0.4s;
+
+    &:hover {
+        background-color: var(--bg1);
+        border: 2.5px solid var(--azul);
+        color: var(--azul);
+
+        p {
+            color: var(--azul);
+        }
+    }
+}
+
+.contato-info img {
+    width: 32px;
+    height: 32px;
+}
+
+.contato-info p {
+    color: var(--text);
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-size);
+}
+
+.first-form {
+    display: grid;
+    margin: 10px 60px 0px 60px;
+    padding: 20px;
+    background-color: var(--bg2);
+    border-radius: 8px;
+    border: 2.5px solid transparent;
+    transition: ease 0.4s;
+    border: 2.5px solid var(--border);
+    box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.25);
+
+    &:hover {
+        border: 2.5px solid var(--text);
+
+        legend {
+            color: var(--text);
+        }
+    }
+}
+
+.first-form legend {
+    color: var(--border);
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-size);
+    transition: ease 0.4s;
+}
+
+.form-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0 0 15px 0;
+}
+
+.form-contact label {
+    color: var(--text);
+    font-size: var(--p-font-size);
+    font-weight: var(--p-font-size);
+    margin: 0 0 5px 0;
+}
+
+input,
+select,
+textarea {
+    color: black;
+    font-size: var(--p-font-size);
+    padding: 1rem 1rem;
+    background-color: var(--bg1);
+    border: 2.5px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    transition: ease 0.4s;
+}
+
+textarea {
+    min-height: 96px;
+    resize: vertical;
+}
+
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+button:focus-visible {
+    border: 2.5px solid var(--azul);
+}
+
+input:user-invalid,
+select:user-invalid,
+textarea:user-invalid {
+    border-color: var(--erro);
+}

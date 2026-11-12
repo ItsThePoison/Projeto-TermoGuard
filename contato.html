@@ -44,8 +44,71 @@
         </nav>
     </header>
 
+    <section class="container-contato">
 
+        <div class="contato-header">
+            <h1>Contato</h1>
+            <h2>Entre Em Contato Conosco:</h2>
+            <p>Conte um pouco sobre o seu negócio e os equipamentos que você quer monitorar. Entraremos em contato para
+                tirar dúvidas e enviar um orçamento.</p>
+        </div>
 
+        <a class="contato-info" href="mailto:contato@termoguard.com" target="_blank">
+            <img src="./src/assets/email.svg" width="32" height="32" alt="email">
+            <p>Email</p>
+        </a>
+        <a class="contato-info" href="https://wa.me/5511999999999" target="_blank">
+            <img src="./src/assets/contact.svg" width="32" height="32" alt="WhatsApp">
+            <p>WhatsApp</p>
+        </a>
+
+        <fieldset class="first-form" action="mailto:contato@termoguard.com" method="post" enctype="text/plain">
+            <legend>Atendimento</legend>
+            <div class="form-contact">
+                <label for="nome">Nome (Ou Empresa):</label>
+                <input type="text" id="nome" name="nome" required
+                    placeholder="Digite seu nome ou o nome da sua empresa">
+            </div>
+
+            <div class="form-contact">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Digite seu email">
+            </div>
+
+            <div class="form-contact">
+                <label for="telefone">Telefone (Whatsapp):</label>
+                <input type="number" id="telefone" name="telefone" required
+                    placeholder="Digite seu telefone: (Whatsapp)">
+            </div>
+
+            <div class="form-contact">
+                <label for="cpf-cnpj">CPF/CNPJ:</label>
+                <input type="number" id="cpf-cnpj" name="cpf-cnpj" required placeholder="Digite seu CPF ou CNPJ">
+            </div>
+
+            <div class="">
+                <label for="assunto">Assunto:</label>
+                <select id="assunto" name="assunto" required>
+                    <option value="">Selecione o assunto...</option>
+                    <option value="instalacao">Instalação</option>
+                    <option value="manutencao">Manutenção corretiva (conserto)</option>
+                    <option value="mudanca">Desinstalação/reinstalação (mudança)</option>
+                    <option value="avaliacao">Visita técnica para avaliação</option>
+                    <option value="orcamento">Orçamento</option>
+                    <option value="outros">Outros</option>
+                </select>
+            </div>
+
+            <div class="form-contact">
+                <label for="mensagem">Mensagem:</label>
+                <textarea resize="none" id="mensagem" name="mensagem" rows="5" cols="100" required
+                    placeholder="Digite sua mensagem"></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+
+    </section>
 
 
 
