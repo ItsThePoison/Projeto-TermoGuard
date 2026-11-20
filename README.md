@@ -79,3 +79,5 @@ Confiabilidade, simplicidade, acessibilidade, transparência e compromisso com o
 
 # Site:
 Utilizando `.html`, `.css`, `.js`.
+Email.Js
+Toastify.Js
